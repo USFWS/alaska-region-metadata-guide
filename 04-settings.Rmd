@@ -1,8 +1,8 @@
-# Settings {#settings}
+# Settings {-#settings}
 
 The settings menu allows for the configuring of user-specific options. 
 
-## General Settings
+## General Settings {-}
 **mdEditor Version**: The mdEditor version notes the current version of mdEditor. Use this when reporting errors. Errors can be reported at https://github.com/adiwg/mdEditor/issues. You must have a github account in order to post.
 
 **Auto-Save**: The Auto-Save option will write all changes to local storage when you exit a data entry field. Changes must be manually saved if the Auto-Save feature is turned off.
@@ -19,12 +19,12 @@ Clearing all records will delete all of the records currently loaded in mdEditor
 
 ***
 
-## ScienceBase Import Settings
+## ScienceBase Import Settings {-}
 [Under development]
 
 ***
 
-## Defaults
+## Defaults {-}
 Defaults include settings for Language, Character Set, Country, and the *Import URL *(used for defining the default URL for importing).
 
 <need to insert image here>
@@ -38,5 +38,5 @@ Also included in **Defaults** are the **Metadata Repositories** (online database
 
 ***
 
-## Publishing Settings
+## Publishing Settings {-}
 [Under development]

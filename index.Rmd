@@ -17,7 +17,7 @@ biblio-style: apalike
 ---
 
 
-# Introduction {#intro}
+# Introduction {-#intro}
 
 ```{block, working_draft-warning, type='rmdcaution'}
 This is a working draft that will continue to be edited. Last updated: 2019-10-02. Please refresh this manual every time you open it to ensure you are viewing the most recent version.
@@ -29,19 +29,19 @@ This manual describes the INTERIM requirements and best practices for the creati
 
 It is assumed that this manual will be continually revised and ultimately replaced following the development of the RDMS.
 
-## Metadata and mdEditor
+## Metadata and mdEditor {-}
 The mdEditor is a metadata editing tool originally created to support the metadata requirements for USFWS Landscape Conservation Cooperatives as an extension of an initiative by the Alaska Data Integration Working Group (ADIwg). This tool was adopted by the AK-Region Regional Directorate Team, on the recommendation of the DST, to support the AK-Region's goal of improving data management.
 
 This manual refers to the creation of AK-Region metadata specifically. If you want information on the creation of other metadata records using mdEditor, or more information in general, please refer to the mdEditor User Manual.
 
-## Who Should Use this Manual
+## Who Should Use this Manual {-}
 This guide is for anyone creating or updating metadata for AK-Region projects and products. The primary purpose is to document items that are stored in project archive records, currently maintained on network drives and backed up with external hard drives.
 The metadata requirements described here apply to science projects and products that were conducted or funded by the Fisheries and Ecological Services (FES), Migratory Bird Management (MBM), National Wildlife Refuge System (NWRS), or Office of Subsistence Management (OSM) branches of the Alaska Region.
 
-## How to Use this Manual
+## How to Use this Manual {-}
 Directly accessing this manual from the internet is the recommended way to use this manual. By doing so, you will guarantee you are always using the current version since it is a live document and any updates can be made instantly. The online version will also have the best functionality and graphical display.
 
 If needed, you can download this manual as a PDF and save a copy to your computer for printing or offline use. If you choose this method, be sure to reference the online version regularly and save a new PDF as updates are made to the online version. Also note that not all of the formatting will be exactly the same as the online version.
 
-## Disclaimer
+## Disclaimer {-}
 This manual was developed while mdEditor is also undergoing development. Due to this, there may be minor discrepancies between screenshots in the manual and the current production version of mdEditor.

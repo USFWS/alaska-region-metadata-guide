@@ -1,23 +1,23 @@
-# Product Entry Guidance
+# Product Entry Guidance {-}
 The Product Entry Guidance section will cover how to create a metadata record for an AK-Region product.
 
 ***
 
-## Before You Begin
+## Before You Begin {-}
 
-### Select the lccProduct Profile:
+### Select the lccProduct Profile: {-}
 After creating your product record and before you begin adding metadata, select **lccProduct** from the **Profile** drop down in the main menu. This will limit the number of available tabs and only show tabs that contain fields that are required for product creation.
 
 ![](images/profile_lccproduct.png)
 
-### Make sure your [contacts](#contact-entry_guidance) are loaded into mdEditor:
+### Make sure your [contacts](#contact-entry_guidance) are loaded into mdEditor: {-}
 In mdEditor, contacts are created separately from individual records, and then stored within a library in mdEditor. Once contacts have been entered or imported into mdEditor, they can be used in metadata records.
 
 You should maintain a single list of your contacts in the program's archive folder (root folder that contains all project archive folders). Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.
 
 ***
 
-## Edit a Product
+## Edit a Product {-}
 1. Import or create your product record (see [workflow](#workflow)).
 2. Choose the specific Resource Type that describes your product. Do not choose the generic "product."
 3. Select the lccProduct Profile: from the Main Menu (Top Navigation Bar) select "lccProduct" from the profile drop-down menu.
@@ -35,9 +35,9 @@ You should maintain a single list of your contacts in the program's archive fold
 
 ***
 
-## Required Fields for Products
+## Required Fields for Products {-}
 
-### Main Tab
+### Main Tab {-}
 * Title
 * Status
 * Language
@@ -53,21 +53,21 @@ You should maintain a single list of your contacts in the program's archive fold
   + Start Date
   + End Date
 
-### Metadata Tab
+### Metadata Tab {-}
 * Metadata Contacts
 * Metadata Identifier
 
-### Keywords Tab
+### Keywords Tab {-}
 * ISO Topic Category
 * GCMD Keywords (Best Practice)
 
-### Extent Tab
+### Extent Tab {-}
 * Geographic Extent
 
-### Taxonomy Tab
+### Taxonomy Tab {-}
 * Taxonomic classifications
 
-### Distribution Tab
+### Distribution Tab {-}
 * Distributor
   + Contact
   + Role
@@ -76,7 +76,7 @@ You should maintain a single list of your contacts in the program's archive fold
 
 ***
 
-## Main Tab {#product-main}
+## Main Tab {-#product-main}
 
 The Main tab allows for the creation and/or editing of primary metadata.
 
@@ -90,30 +90,30 @@ The Main tab allows for the creation and/or editing of primary metadata.
 | Description: Abstact | Required |
 | Time Period: Start Date, End Date | Required |
 
-### Basic Information
+### Basic Information {-}
 
-#### Record ID (Required)
+#### Record ID (Required) {-}
 Will be auto-generated but can be edited.
 
-#### Title (Required)
+#### Title (Required) {-}
 Enter as informative a title as possible. Good titles, when they appear in a search, will be understood and/or traceable.
 
-#### Status (Required)
+#### Status (Required) {-}
 The Status drop-down menu allows you to select the status of your product. Choose status ONLY from the four following options: *completed, ongoing, proposed, or accepted*.
 
 ![](images/main_screenshot_updated.png)
 
-### Default Locale
+### Default Locale {-}
 **Default Locale** allows for the selection of **Language**, **Character Set**, and **Country**. English, UTF-8, and USA will be selected by default, but you may change them if necessary.
 
 ![](images/default_locale.png)
 
-### Resource Types (Required)
+### Resource Types (Required) {-}
 The Resource Type should be automatically filled in with the resource type you selected when you created your record. Name is optional - you can leave this blank.
 
 Products must have a specific resource type selected (not just "product").
 
-### Points of Contact (Required)
+### Points of Contact (Required) {-}
 Adding a point of contact gives users information on who to contact should they have a question regarding your project or product.
 
 ```{block, product_entry_points_of_contact-tip, type='rmdtip'}
@@ -121,7 +121,7 @@ To add contacts to a metadata record, you must first create/upload the contacts 
 ```
 
 
-#### Contacts
+#### Contacts {-}
 
 | Role | Contact | Required? |
 |:------|:-----|:-----|
@@ -132,21 +132,21 @@ The point of contact for a project should be identified with Roles and Responsib
 
 ![](images/7H_image.png)
 
-### Citation
+### Citation {-}
 The **Citation** describes pertinent information about your project such as: responsible parties, internal identifiers, and any online resources that may relate to your item. Adding information in the citation will also improve users' ability to find your items.
 
-#### Citation Required Fields
+#### Citation Required Fields {-}
 
-##### Title (Required)
+##### Title (Required) {-}
 The citation title is automatically populated with the title of your record.
 
-##### Alternate Title (Optional)
+##### Alternate Title (Optional) {-}
 You can add an alternate title if desired, such as the Short Title used in the archive record.
 
-##### Dates (Optional)
+##### Dates (Optional) {-}
 Enter *acquisition, creation, revision*, or another date reference from the picklist and then enter the date.
 
-##### Responsible Parties (Required)
+##### Responsible Parties (Required) {-}
 Responsible parties must include a point of contact, but may also include the other responsible parties identified in Roles and Responsibilities (see Interim DM Implementation Guide) such as custodian, editor (data steward), and administrator. 
 
 ```{block, product_entry_responsible_parties-tip, type='rmdtip'}
@@ -161,29 +161,29 @@ To add contacts to a metadata record, you must first create/upload the contacts 
 | editor | Best Practice |
 | administrator  | Best Practice |
 
-##### Online Resource (Required, if available)
+##### Online Resource (Required, if available) {-}
 Enter the Name and URL for the project homepage, if available.
 
 ```{block, product_entry_online_resource-caution, type='rmdcaution'}
 If the product metadata was created by copying another mdEditor metadata record, this identifier needs to be edited/changed since it will reflect the copied record identifier. Only the mdEditor UUID changes to represent a new record when an item is copied. Consult the [Copy Records](#copy-records) section of this manual to learn how to make a copy.
 ```
 
-### Description
+### Description {-}
 Description allows for the addition of the Abstract as well as a Short Abstract, and Supplemental Information.
 
-#### Abstract (Required)
+#### Abstract (Required) {-}
 Enter an abstract that succinctly describes the project's purpose and goals. Include key species or habitats as well.
 
 ```{block, product_entry_abstract-tip, type='rmdtip'}
 Write your project abstract in the present tense if the project is in progress and past tense if the project has been completed.
 ```
 
-#### Short Abstract (Optional)
+#### Short Abstract (Optional) {-}
 Enter a short description, limited to 300 characters, if desired.
 
 Enter comments, if desired.
 
-### Time Period
+### Time Period {-}
 
 **Time Period** refers to project start and end date, or the date that the product was applicable (e.g., time that a map is valid, date of publication, date of presentation).
 
@@ -193,7 +193,7 @@ Enter comments, if desired.
 
 ***
 
-## Metadata Tab {#product-metadata}
+## Metadata Tab {-#product-metadata}
 
 Record Metadata includes a description that outlines the process of metadata creation, contributors to the creation of the metadata, and metadata repositories.
 
@@ -203,15 +203,15 @@ Record Metadata includes a description that outlines the process of metadata cre
 | Metadata Contacts | Required |
 | Metadata Identifier | Required |
 
-### Basic Information
+### Basic Information {-}
 
-#### Metadata Status (Best Practice)
+#### Metadata Status (Best Practice) {-}
 Select the appropriate status of the creation of your metadata from the drop down menu. For example, if you have added all of your metadata, select "completed." If you still have metadata to add, select "onGoing."
 
-#### Dates (Best Practice)
+#### Dates (Best Practice) {-}
 Add at least one date. Recommended are "creation" (when you first created your metadata) and "lastUpdate" (when you updated metadata after initial publication).
 
-### Metadata Contacts
+### Metadata Contacts {-}
 Metadata Contacts are required. Adding a metadata contact will give users a contact point should they have any questions about the metadata.
 
 | Role | Contact | Required? |
@@ -219,22 +219,22 @@ Metadata Contacts are required. Adding a metadata contact will give users a cont
 | author | Identified in Roles and Responsibilities | At least one is required |
 | pointOfContact | Identified in Roles and Responsibilities | Required |
 
-### Metadata Identifier
+### Metadata Identifier {-}
 The Metadata Identifier is automatically populated by mdEditor by generating a universally unique identifier (UUID). The metadata identifier gives each of your projects and products a unique ID and differentiates them from other similar projects and products.
 
 ```{block, product_entry_metadata_identifier-warning, type='rmdwarning'}
 Once a Metadata Identifier is created in the metadata, do not change it. mdEditor uses the Metadata Identifier to connect records and changing the Metadata Identifier can break those connections. If there are additional identifiers you want to include in your metadata record, include them in Main/Citation/Identifier.
 ```
 
-### Parent Metadata
+### Parent Metadata {-}
 [Under development]
 
-### Metadata Repositories
+### Metadata Repositories {-}
 [Under development]
 
 ***
 
-## Keyword Tab {#product-keywords}
+## Keyword Tab {-#product-keywords}
 
 Adding keywords to your metadata record allows for the record to be found later through a search engine. Keywords are the way to tag your projects or products. The mdEditor is designed using thesauruses that contain pre-determined keywords.
 
@@ -243,14 +243,14 @@ Adding keywords to your metadata record allows for the record to be found later 
 | ISO Topic Category | Required |
 | GCMD Keywords | Required |
 
-### Add Keywords to your Product Record
+### Add Keywords to your Product Record {-}
 
 1. Click “+ Add Thesaurus” on the right to add the different thesauruses.
 2. From the drop down box, pick a thesaurus.
 3. Add keywords from the following pre-populated thesauruses.
 4. If none of the keywords in the following categories are sufficient for tagging your project, you can add other keywords with a custom thesaurus (see below for more information).
 
-### ISO Topic Category Thesaurus (Required)
+### ISO Topic Category Thesaurus (Required) {-}
 Because mdJSON metadata is based on the ISO (International Organization for Standardization) metadata standard, all products must select at least one ISO Topic Category. ISO topics were generally meant for spatial data so they might be a bit of a stretch, but do your best to find the best fit. mdEditor provides definitions of each ISO topic category if you hover over the ? icon.
 
 ISO Topic List:
@@ -277,14 +277,14 @@ ISO Topic List:
 Biota and environment are probably the best fit for most AK-Region products.
 ```
 
-### GCMD Keywords Thesaurus (Best Practice)
+### GCMD Keywords Thesaurus (Best Practice) {-}
 GCMD stands for Global Change Master Directory and these keywords are maintained by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD Platforms and Instruments Keywords but they are unlikely to apply to LCCs.
 
 ```{block, product_entry_full_path-tip, type='rmdtip'}
 Check the "Full Path" checkbox to save the full path of the keyword to your metadata. This will maintain the category and context of the specific keywords chosen.
 ```
 
-### Custom Thesaurus
+### Custom Thesaurus {-}
 If any of your desired keywords do not appear in the existing thesauruses, you can add them using a custom thesaurus. Use a custom thesaurus only for keywords that are not available in an existing thesaurus.
 
 You cannot add keywords to an existing thesaurus; you can only add keywords in a custom thesaurus.
@@ -296,12 +296,12 @@ If you have a consistent set of keywords that you use across your products, you 
 ```
 
 
-### Keywords and ScienceBase
+### Keywords and ScienceBase {-}
 [ Under development ]
 
 ***
 
-## Extent Tab {#product-extent}
+## Extent Tab {-#product-extent} 
 
 **Extent** refers to geographic boundaries for your project. Spatial extents lets users see at a glance the geographic footprint of your project and allows searching within specific geographic areas.
 
@@ -319,7 +319,7 @@ See further information on Extents in [Project Extent entry guidance](#project-e
 
 ***
 
-## Taxonomy Tab {#product-taxonomy}
+## Taxonomy Tab {-#product-taxonomy}
 
 | Quick Reference: Product Taxonomy Tab | Required? |
 |:------|:-----|
@@ -331,7 +331,7 @@ Taxonomy is required for projects and strongly recommended for products (where a
 
 ***
 
-## Lineage Tab {#product-lineage}
+## Lineage Tab {-#product-lineage}
 
 Lineage is used to track the process of building spatial datasets. It's a space that can be used to describe the steps and sources used to create the product, and document the roles and contacts for the product contributors. Completing the lineage tab is recommended, but not required.
 
@@ -343,7 +343,7 @@ Lineage is used to track the process of building spatial datasets. It's a space 
 
 ![](images/lineage_window.png)
 
-### Process Step
+### Process Step {-}
 **Process Step** allows for documentation of the steps taken to build spatial data.
 
 *The following are available and required:*
@@ -369,7 +369,7 @@ Lineage is used to track the process of building spatial datasets. It's a space 
 
 ***
 
-## Distribution Tab {#product-distribution}
+## Distribution Tab {-#product-distribution}
 
 **Distribution** provides documentation on how or where users can obtain products. Distribution methods may include online options (e.g., website, database) or offline options (e.g., delivery via mail, library).
 
@@ -382,15 +382,15 @@ An online distribution link is required for any products sent to data.gov.
 
 Click **Add Distribution Section** and then **Edit Distributors** to begin adding distributors.
 
-### Distributor
+### Distributor {-}
 This section involves adding distributor information and a URL for data products that are hosted anywhere. For example, if The Nature Conservancy is hosting a data source, the distributor is "The Nature Conservancy."
 
-#### Contacts and Role (Required)
+#### Contacts and Role (Required) {-}
 If anything is filled out in the distribution section, a contact must be added. The appropriate role is "distributor."
 
 The contact should ideally be someone who will remain available to respond to potential inquiries about the product. 
 
-### Transfer Options (Required)
+### Transfer Options (Required) {-}
 Transfer Options provide details regarding obtaining the product. Online and offline options are available.
 
 #### Online Option (Required if Available)
@@ -413,13 +413,13 @@ In the Function field, you should indicate the type of URL. If the link is a dir
 **Offline Option**
 If your product is only available offline, describe how users can obtain the product here.
 
-### Example Distributor
+### Example Distributor {-}
 
 ![](images/distribution_example.png)
 
 ***
 
-## Constraints Tab {#product-constraints}
+## Constraints Tab {-#product-constraints}
 
 The Constraint tab allows you to enter information into the metadata about how the resource can and cannot be used.
 
@@ -429,21 +429,21 @@ The Constraint tab allows you to enter information into the metadata about how t
 | Legal | Optional |
 | Security Constaints | Optional |
 
-### Use Limitation
+### Use Limitation {-}
 Identify concerns over how people should or should not use the product.
 
 If your product is licensed, let people know here. Typically files used will be public domain, but not always.
 
 ![](images/use_limitation.png)
 
-### Legal
+### Legal {-}
 - **Access Constraints**: Access constraints are applied to assure the protection of privacy or intellectual property and any special restrictions or limitations on obtaining the resource.
 - **Use constraints**: How the product should be used.
 - **Other constraints**: This is a place to put standard disclaimers.
 
 ![](images/legal.png)
 
-### Security Constraints
+### Security Constraints {-}
 A place to describe constraints or restrictions pertaining to security of the resource. Choose classification from the drop-down menu.
 
 Classification is the class of security (e.g., top secret, public access).
@@ -452,7 +452,7 @@ Classification is the class of security (e.g., top secret, public access).
 
 ***
 
-## Dictionaries Tab {#product-dictionary}
+## Dictionaries Tab {-#product-dictionary}
 
 Data dictionaries are required for tabular datasets.
 
@@ -462,11 +462,11 @@ Select the dictionary from the list of those available by checking the box next 
 
 ***
 
-## Associated Tab {#product-associated}
+## Associated Tab {-#product-associated}
 
 The **Associated section** is used to connect metadata records with each other. This feature should be used when items are related. For example, products are often the result of projects, and projects can have sub-projects. Projects and Products can be linked together by using association. 
 
-### Create Associations
+### Create Associations {-}
 In mdEditor you can either create the association from the Project record or the Product record. The "Association Type" will define the association from your current record to the linked record. Specifying the "Linked Association Type" will create the association from the other direction.
 
 *Important: It is recommended you ALWAYS specify the Linked Association Type when you create associations. This will ensure the associations are defined from both directions and be present in the metadata no matter how the metadata is translated or where it is used in the future.*
@@ -477,7 +477,7 @@ In mdEditor you can either create the association from the Project record or the
 3. Choose the project that you would like to associate from the "Select a Resource" list.
 4. Fill out the Linked Association Type with "product."
 
-#### Step-by-Step: Creating an Association in a Product Record
+#### Step-by-Step: Creating an Association in a Product Record {-}
 
 **Step 1**: Select **parentProject** from the **Association Type** drop-down menu. This field will describe the relationship from the associated record to the product record (the associated record is the parentProject of the product record you are editing).
 

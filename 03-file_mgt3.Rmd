@@ -1,8 +1,8 @@
-# File Management
+# File Management {-}
 
 File management in mdEditor consists of consistent and proper handling and storage of mdEditor derived formats of metadata. These files are essential for long-term access to metadata beyond a single work session.
 
-## How mdEditor Stores Information
+## How mdEditor Stores Information {-}
 mdEditor stores information on your local computer in your browser's localStorage cache (not the normal file cache). This means that if you use a different browser to access mdEditor, it will not show the metadata records from your original browser. It also means that clearing your browser's cache generally will not delete your mdEditor records. However, depending on your browser's settings, clearing your browser cache may still delete your mdEditor data (e.g., in Chrome, checking the "*cookies and other site data*" option will clear your mdEditor data).
 
 ```{block, cache-tip, type='rmdcaution'}
@@ -10,7 +10,7 @@ In mdEditor settings, you can clear your storage cache. Doing so will remove all
 ```
 
 
-## mdEditor File Format
+## mdEditor File Format {-}
 JSON (JavaScript Object Notation) is an open-standard file format with file extension .json.  The underlying format of the metadata from mdEditor is mdJSON, which was created specifically for mdEditor. There are two types of mdJSON files.
 
 1. **mdJSON** files are the format that is published from mdEditor and can be made available on ScienceBase and data.gov. Their default file name is **md_metadata.json**.
@@ -22,12 +22,12 @@ mdEditor files will be exported and imported to/from the project's archive recor
 
 ***
 
-## Import {#import}
+## Import {-#import}
 The Import function loads an mdEditor or mdJSON file into the current mdEditor session. You can also import existing ScienceBase metadata or FGDC (Federal Geographic Data Committee) metadata into mdEditor to create mdJSON.
 
-### General Import Settings
+### General Import Settings {-}
 
-#### Replace vs. Merge
+#### Replace vs. Merge {-}
 The **Replace/Merge** toggle allows you to either replace or merge the imported records with the records currently loaded in mdEditor. 
 
 ```{block, file_mgt_replace-tip, type='rmdtip'}
@@ -38,7 +38,7 @@ When importing existing mdEditor files from the project archive folder, choose "
 In most instances, when you import the Contacts or Data Dictionary records, you should select "Merge." That will ensure that the master file of contacts or data dictionary records, stored in the program archive folder, will be updated with any new entries added to the mdEditor. 
 ```
 
-### Import Screen
+### Import Screen {-}
 You can click or drag and drop a file onto the **Import Data** button to import a local file.
 
 ![](images/import_window.png)
@@ -53,25 +53,25 @@ You can click or drag and drop a file onto the **Import Data** button to import 
 
 ***
 
-## Export {#export}
+## Export {-#export}
 
 The export function allows the current set of metadata records to be saved as an mdEditor or mdJSON file. The saved files can be shared with collaborators, imported into another record set, or imported into another browser. Exported mdEditor files should be saved as a backup or archival copy in the project's archive folder.  
 
 
-### Using Export to Backup Records
+### Using Export to Backup Records {-}
 Exporting records is the only way to save mdEditor files outside of your browser cache. You should backup by exporting an mdEditor JSON file each time you finish a work session in mdEditor or switch browsers.
 
-#### mdEditor files vs. mdJSON files
+#### mdEditor files vs. mdJSON files {-}
 mdJSON files can be uploaded and translated to other formats via the mdTranslator application while mdEditor files are exclusive to the mdEditor application and retain all mdEditor information, including Settings.
 
-#### Best Practices
+#### Best Practices {-}
 -Export project and product records to the project's archive folder as an mdEditor JSON file. Include Settings. 
 
 -Export the contact and data dictionary records to the program's archive folder as mdEditor JSON files. Include Settings. These records are backed up in a different location because they are reused across many projects.  
 
 -It is particularly important that you export your records for backup before using mdEditor's Clear Storage Cache functionality (clearing the storage cache will delete any records or data you have entered into the mdEditor). Exporting ensures that your data is secure even after clearing the storage cache. Not exporting your data before clearing your cache will result in a permanent loss of records. Consult the Settings section of this manual to learn more.  
 
-### Export Options
+### Export Options {-}
 While exporting data, there are four options available (on the right side of the export data window).
 
 ![](images/export_data_action_menu.png)
@@ -86,7 +86,7 @@ Clicking the **Include Settings** switch will also export mdEditor settings (onl
 
 ***
 
-## Copy Records
+## Copy Records {-}
 The **Copy** button is located in the mdEditor action menu on the right-hand side of the screen. The Copy Button allows you to make a duplicate of an existing metadata record.
 
 **Making a copy of a record can be used to:**
