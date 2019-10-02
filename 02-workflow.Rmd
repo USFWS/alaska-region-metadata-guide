@@ -1,0 +1,89 @@
+# Workflow
+
+The following is a suggested workflow for using mdEditor to create and save metadata records for AK-Region projects and products. Workflow can begin from scratch or by working with existing metadata records.
+
+## From Scratch
+Follow this workflow if you do not have existing project or product metadata.
+
+### Step 1: Gather information needed for your metadata entries.
+Have information about your contacts, projects, and products on hand before you begin creating metadata records. Key information to gather includes project proposals, project reports, product information, and contact information for individuals and organizations involved in the projects.
+
+### Step 2: Open mdEditor.
+The direct link to mdEditor is https://go.mdeditor.org. Choose the browser you plan to use for mdEditor and bookmark this link.
+
+mdEditor can also be accessed from its homepage at https://www.mdeditor.org/. This site provides some background information and Frequently Asked Questions about mdEditor.
+
+### Step 3: Set the correct default [Settings](#settings).
+[ Under development ]
+
+### Step 4: Upload or Create [Contacts](#contact-entry-guidance).
+Contacts must be uploaded from the program archive folder or created before they can be added to project and product metadata records. See Contact Entry Guidance for more information. 
+
+### Step 5: Upload [Data Dictionaries](#dictionary-entry-guidance). 
+Upload existing data dictionaries from the program archive folder. If applicable, these can be reused across product metadata records. 
+
+### Step 6: Create [Projects](#project-entry-guidance).
+Create an mdEditor project record from scratch.
+
+### Step 7: Create [Products](#product-entry-guidance).
+Create an mdEditor product record from scratch.
+
+### Step 8: For applicable Products, create [Data Dictionaries](#dictionary-entry-guidance).
+For tabular data products, if an existing data dictionary does not describe the product, create a new data dictionary. 
+
+### Step 9: Complete metadata.
+
+### Step 10: Create desired Associations between Projects and/or Products.
+Associations can be either associated from a project or associated from a product.
+
+### Step 11: Publish your records to ScienceBase.
+[ Under development ]
+
+### Step 12: [Export](#export) your records and contacts for backup, transfer, or sharing.
+Export the project and product records to the project's archive folder (incoming folder) on your program's network drive. These records should be moved from your incoming folder to the metadata folder of the project by the data custodian. Rename this file "project_name.json." For example, MBMWF_011_YKDNestPlot.json would be the metadata record for the YK Delta nest plot survey project conducted by the Waterfowl Program in MBM (it was the 11th project archive record created by the program). 
+
+Separately export all contacts and all data dictionaries to the program's archive folder (root folder that contains all project archive folders).
+
+
+
+## Editing and Re-Export
+Follow this workflow if you have already created metadata and need to update it.
+
+### Step 1: Gather information needed for your metadata entries.
+Have the necessary information to update your metadata records readily accessible before you begin.
+
+### Step 2: Open mdEditor.
+The direct link to mdEditor is https://go.mdeditor.org. Choose the browser you plan to use for mdEditor and bookmark this link.
+
+mdEditor can also be accessed from its homepage at https://www.mdeditor.org/. This site provides some background information and Frequently Asked Questions about mdEditor.
+
+### Step 3: [Import](#import) mdEditor file.
+Import the mdEditor JSON file that you wish to edit from the project's archive folder. 
+
+### Step 4: Check the [Settings](#settings).
+[ Under development ]
+
+### Step 5: Update [Contacts](#contact-entry-guidance).
+Import the Contact file from the program's archive folder. If you have new contacts to add to your metadata record, create those contacts and add them to the record.
+
+### Step 6: Update [Projects](#project-entry-guidance).
+Update/edit metadata as needed.
+
+### Step 7: Update [Products](#product-entry-guidance).
+Update/edit metadata as needed.
+
+### Step 8: For applicable Products, create, import, or update [Data Dictionaries](#dictionary-entry-guidance).
+Import the Data Dictionaries file from the program's archive folder. If you have new data dictionaries to add to your metadata record, create those dictionaries and add them to the record.
+
+### Step 9: Check Associations between Projects and/or Products.
+If you only updated metadata in existing records that were already associated, you do not need to do anything with the associations.
+
+If you created a new product for your project, then associate those records in mdEditor.
+
+### Step 10: Publish your records to ScienceBase.
+[ Under development ]
+
+### Step 11: [Export](#export) your records and contacts for backup, transfer, or sharing.
+Export the project and product records to the project's archive folder (incoming folder) on your program's network drive. These records should be moved from your incoming folder to the metadata folder of the project by the data custodian. Rename this file "project_name.json." For example, MBMWF_011_YKDNestPlot.json would be the metadata record for the YK Delta nest plot survey project conducted by the Waterfowl Program in MBM (it was the 11th project archive record created by the program). 
+
+Separately export all contacts and all data dictionaries back to the program's archive folder (root folder that contains all project archive folders).

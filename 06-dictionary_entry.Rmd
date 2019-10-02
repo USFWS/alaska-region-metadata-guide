@@ -1,0 +1,104 @@
+# Dictionary Entry Guidance
+
+Data dictionaries define the characteristics of attributes (also called variables or column names) that make up an entity (also called a table). A single data dictionary can describe the attributes of a single table or a collection of tables, like a database. Like Contacts, data dictionaries are created separately from Product records. Also like Contacts, dictionaries can be reused across products and are stored outside the project archive folder in the program archive folder.
+
+It is recommended that you export all Data dictionaries to the program's archive folder at the end of each working session and import them before a new session begins (see [File Management](#file-management)). This allows for the generation of a single list of dictionaries for the program that multiple metadata authors can use.  
+
+After a data dictionary has been described, it can be added to the product metadata record (see [Dictionaries](#dictionaries-tab) tab).
+
+***
+
+## Creating a New Data Dictionary
+If an existing data dictionary does not describe the product you are working on, create a new data dictionary by clicking the `r knitr::include_graphics("images/symbol_plus_16.png")` by **Dictionaries**.
+
+Give the dictionary a title and chose **tabularDataset** as the subject. 
+
+```{block, dictionary_entry_titles-tip, type='rmdtip'}
+Meaningful titles will help link the data dictionary to its product(s) while building the product metadata record.
+```
+
+Click **Save**.
+
+***
+
+## Main Tab
+
+| Quick Reference: Dictionary Main Tab | Required? |
+|:------|:-----|
+| Basic Information: Title, Subject | Required |
+| Responsible Party | Required |
+
+### Responsible Party (Required)
+Adding a point of contact gives users information on who to contact should they have a question regarding your dictionary.
+
+```{block, dictionary_entry_add_contacts-tip, type='rmdtip'}
+To add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Section for more information.
+```
+
+   
+| Role | Contact | Required? |
+|:------|:-----|:-----|
+| pointOfContact | Identified in Roles and Responsibilities | Required |
+| author | Identified in Roles and Responsibilities | Best Practice |
+| principalInvestigator | The Project PI | Best Practice |
+
+The point of contact for a project should be identified with Roles and Responsibilities (see Interim DM Implementation Guide). This is an interim solution as the point of contact can become obsolete if there is a positional change within an organization. 
+
+***
+
+## Citation Tab
+
+| Quick Reference: Dictionary Citation Tab | Required? |
+|:------|:-----|
+| Title | Required |
+| Date | Best Practice |
+| Responsible Parties | Required |
+
+### Dates (Best Practice)
+Add at least one date. Recommended are "creation" (when you first created your dictionary) and "lastUpdate" (when you updated the dictionary after initial publication).
+
+### Responsible Parties (Required)
+**Responsible Parties** are required. Adding these will give users a contact point should they have any questions about the dictionary.
+
+| Role | Contact | Required? |
+|:------|:-----|:-----|
+| author | Identified in Roles and Responsibilities | At least one is required |
+| pointOfContact | Identified in Roles and Responsibilities | Required |
+
+***
+
+## Entities Tab
+An Entity is a table. More than one entity can be described by a single data dictionary, as with a database. 
+
+Using the "Import CSV" button in the Entities Tab will allow you to pre-populate information in your data dictionary with the tabular dataset(s) you are documenting.
+
+```{block, dictionary_entry_import_csv-tip, type='rmdtip'}
+Using the "Import CSV" functionality is highly recommended to start defining a data dictionary.
+```
+
+Click "Import CSV" on the right hand side of the window. Either navigate to the tabular dataset you are documenting or drag-and-drop the file.
+
+Check that the Names and Data Types were correctly imported. Check "Domain" box for an attribute if you wish to limit the entries allowed for the attribute (for example, allowing "Female" and "Male" for the attribute "Sex"). Check "Allow Null" values if the attribute is allowed to have missing entries. Check "Max/Min" if you would like to set maximum and minimum values for the attribute.
+
+After checking each attribute for these characteristics, click "Do Import."
+
+Repeat this process for each entity that is described by the data dictionary.
+
+### Entity Information
+Give a name to the entity in "Code Name" and a  brief definition for the entity.
+
+### Attributes
+The attributes (variables or column names) imported from the tabular dataset will be listed in a table and you must provide a brief definition for each.  Additional information about the attribute can be described by clicking "More."
+
+***
+
+## Domain Tab
+Domains are discrete, allowable values that an attribute might take. For example, the attribute "Color" in a table may only be allowed to take values "Red," "Green," and "Yellow."
+
+Each attribute that you checked the "Domain" box for during csv import (see the [Entities Tab](#entities-tab) for import guidance) will be listed in a table under the Domain tab. For each, you must describe the allowable domains. 
+
+Click "More" for each attribute. Give the attribute a short description in the Domain Information box (this can be the same definition provided for it in the Entities tab).
+
+Under Domain Items, give a short definition for each allowable domain.
+
+Click "Back to Domains" and repeat for each attribute requiring defined domains. 

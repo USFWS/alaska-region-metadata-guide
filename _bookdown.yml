@@ -1,0 +1,5 @@
+book_filename: "mdeditor_user_guide"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: ""
