@@ -120,7 +120,6 @@ Adding a point of contact gives users information on who to contact should they 
 To add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Section for more information.
 ```
 
-
 #### Contacts {-}
 
 | Role | Contact | Required? |
@@ -152,7 +151,6 @@ Responsible parties must include a point of contact, but may also include the ot
 ```{block, product_entry_responsible_parties-tip, type='rmdtip'}
 To add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Section for more information.
 ```
-
 
 | Role | Contact | Required? |
 |:------|:-----|:-----|
@@ -294,7 +292,6 @@ You cannot save a custom thesaurus in mdEditor.
 ```{block, product_entry_custom_thesaurus-tip, type='rmdtip'}
 If you have a consistent set of keywords that you use across your products, you could add these to a "template product" record in mdEditor and then modify the specific keywords you need for each product. See the workflow section for more info about using template records.
 ```
-
 
 ### Keywords and ScienceBase {-}
 [ Under development ]

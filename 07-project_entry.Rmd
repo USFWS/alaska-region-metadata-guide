@@ -85,18 +85,15 @@ The Status drop-down menu allows you to select the status of your project. Choos
 
 ![](images/main_screenshot_updated.png)
 
-
 #### Default Locale {-}
 **Default Locale** allows for the selection of **Language, Character Set**, and **Country**. English, UTF-8, and USA will be selected by default, but you may change them if necessary.
 
 ![](images/default_locale.png)
 
-
 #### Resource Types (Required) {-}
 For projects, the Resource Type should be automatically filled in with the resource type you selected when you created your record. This should be "project" for all AK-Region projects. Name is optional. You can leave this blank or use the Short Title from the archive record.
 
 ![](images/resource_types.png)
-
 
 #### Points of Contact {-}
 Adding a point of contact gives users information on who to contact should they have a question regarding your project or product.
@@ -104,7 +101,6 @@ Adding a point of contact gives users information on who to contact should they 
 ```{block, project_entry_points_of_contacts-tip, type='rmdtip'}
 To add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Section for more information.
 ```
-
 
 ##### Contacts {-}
 
@@ -116,7 +112,6 @@ To add contacts to a metadata record, you must first create/upload the contacts 
 The point of contact for a project should be identified with Roles and Responsibilities (see Interim DM Implementation Guide). This is an interim solution as the point of contact can become obsolete if there is a positional change within an organization. 
 
 ![](images/contacts_image.png)
-
 
 ### Citation {-}
 The **Citation** describes pertinent information about your project such as: responsible parties, internal identifiers, and any online resources that may relate to your item. Adding information in the citation will also improve users' ability to find your items.
@@ -137,7 +132,6 @@ Responsible parties must include a point of contact, but may also include the ot
 ```{block, project_entry_responsible_parties-tip, type='rmdtip'}
 To add contacts to a metadata record, you must first create/upload the contacts in mdEditor. See the Contacts section for more information.
 ```
-
 
 | Role | Contact | Required? |
 |:------|:-----|:-----|
@@ -178,7 +172,6 @@ This set of dates is distinct from the fiscal year of funding. Here you want to 
 For each project, add a Start Date and End Date. If the project spanned a single fiscal year, you can use the “Pick a Fiscal Year” dropdown to autofill the date fields.
 
 ![](images/main-time-period.png)
-
 
 ## Metadata Tab {#project-metadata} {-}
 
@@ -263,14 +256,12 @@ ISO Topic List:
 Biota and environment are probably the best fit for most AK-Region projects.
 ```
 
-
 ### GCMD Keywords Thesaurus (Best Practice) {-}
 GCMD stands for Global Change Master Directory and these keywords are maintained by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD Platforms and Instruments Keywords but they are unlikely to apply to LCCs.
 
 ```{block, project_entry_full_path-tip, type='rmdtip'}
 Check the "Full Path" checkbox to save the full path of the keyword to your metadata. This will maintain the category and context of the specific keywords chosen.
 ```
-
 
 ### Custom Thesaurus {-}
 If any of your desired keywords do not appear in the existing thesauruses, you can add them using a custom thesaurus. Use a custom thesaurus only for keywords that are not available in an existing thesaurus.
@@ -329,7 +320,6 @@ Bounding boxes will not work across the dateline but you can have more than one 
 ```{block, project_entry_saving_extents-tip, type='rmdtip'}
 You can export, save, and import an extent to use for other projects or products.
 ```
-
 
 ![](images/edit_extent_page.png)
 
@@ -400,6 +390,7 @@ To some extent, this is up to the judgement of the data manager. You will know b
 ### Reporting Issues {-}
 If you encounter issues or bugs using the new Taxonomy feature, please report them in this github thread: https://github.com/adiwg/mdEditor/issues/101 (requires github account to post).
 
+***
 
 ## Associated Tab {-#project-associations}
 The Associated section is used to connect metadata records with each other. This feature should be used when items are related, for example, products are often the result of projects, and projects often have sub-projects. Projects and Products can be linked together by using association. Adding associations gives users the ability to find items that relate to each other.
@@ -419,7 +410,6 @@ Associations can only be made after both project and product records have been c
 | 2. Use the Select a Record button to select an associated product. |
 | 3. Choose the product that you would like to associate from the "Select a Resource" list. |
 | 4. Fill out the Linked Association Type with "parentProject." |
-
 
 #### Step-by-Step: Creating an Association in a Project Record {-}
 **Step 1**: Select "**product**" from the **Association Type** drop-down menu. This field will describe the relationship from the associated record to the project record (the associated record is the product of the project record you are editing).

@@ -9,6 +9,7 @@ mdEditor stores information on your local computer in your browser's localStorag
 In mdEditor settings, you can clear your storage cache. Doing so will remove all of the information currently loaded in mdEditor. Reasons you might want to clear your storage cache is due to too much information stored in the cache, or as a way to debug a problem with mdEditor. **It is very important that you back up your records before clearing the mdEditor cache to avoid losing your data**. Consult the Export or Settings section of this manual to learn more.
 ```
 
+***
 
 ## mdEditor File Format {-}
 JSON (JavaScript Object Notation) is an open-standard file format with file extension .json.  The underlying format of the metadata from mdEditor is mdJSON, which was created specifically for mdEditor. There are two types of mdJSON files.
@@ -50,13 +51,11 @@ You can click or drag and drop a file onto the **Import Data** button to import 
 
 ![](images/import_data.png)
 
-
 ***
 
 ## Export {-#export}
 
 The export function allows the current set of metadata records to be saved as an mdEditor or mdJSON file. The saved files can be shared with collaborators, imported into another record set, or imported into another browser. Exported mdEditor files should be saved as a backup or archival copy in the project's archive folder.  
-
 
 ### Using Export to Backup Records {-}
 Exporting records is the only way to save mdEditor files outside of your browser cache. You should backup by exporting an mdEditor JSON file each time you finish a work session in mdEditor or switch browsers.

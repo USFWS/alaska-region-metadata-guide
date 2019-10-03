@@ -27,9 +27,10 @@ Clearing all records will delete all of the records currently loaded in mdEditor
 ## Defaults {-}
 Defaults include settings for Language, Character Set, Country, and the *Import URL *(used for defining the default URL for importing).
 
-<need to insert image here>
+![](images/settings_defaults.png)
 
 The following defaults will be pre-loaded:
+
 - default language: English
 - default character set: UTF-8
 - default location: USA

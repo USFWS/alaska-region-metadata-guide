@@ -35,7 +35,6 @@ Adding a point of contact gives users information on who to contact should they 
 To add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Section for more information.
 ```
 
-   
 | Role | Contact | Required? |
 |:------|:-----|:-----|
 | pointOfContact | Identified in Roles and Responsibilities | Required |

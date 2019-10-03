@@ -2,6 +2,8 @@
 
 The following is a suggested workflow for using mdEditor to create and save metadata records for AK-Region projects and products. Workflow can begin from scratch or by working with existing metadata records.
 
+***
+
 ## From Scratch {-}
 Follow this workflow if you do not have existing project or product metadata.
 
@@ -44,7 +46,7 @@ Export the project and product records to the project's archive folder (incoming
 
 Separately export all contacts and all data dictionaries to the program's archive folder (root folder that contains all project archive folders).
 
-
+***
 
 ## Editing and Re-Export {-}
 Follow this workflow if you have already created metadata and need to update it.
