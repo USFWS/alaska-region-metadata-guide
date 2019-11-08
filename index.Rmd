@@ -1,7 +1,7 @@
 --- 
 title: "Alaska Region Metadata Guide"
 author: "Alaska Region Data Stewardship Team"
-date: 
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
   bookdown::render_book
 description: INTERIM requirements and best practices for the creation of high-quality
@@ -20,7 +20,7 @@ biblio-style: apalike
 # Introduction {-#intro}
 
 ```{block, working_draft-warning, type='rmdcaution'}
-This is a working draft that will continue to be edited. Last updated: 2019-10-02. Please refresh this manual every time you open it to ensure you are viewing the most recent version.
+This is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version.
 ```
 
 The Alaska Region of the U.S. Fish and Wildlife Service is committed to improving the management of its data resources. A comprehensive, long-term plan to develop and implement a Regional Data Management System (RDMS) will begin in the winter of 2019, with the expectation that it will be fully operational and in use in 3-5 years. In the interim, there is a strong desire in the Region to begin managing existing and new data resources with the systems available to staff now.

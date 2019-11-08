@@ -1,7 +1,6 @@
 # Project Entry Guidance {-}
 The Project Entry Guidance section will cover how to create a metadata record for an AK-Region project.
 
-***
 
 ## Before You Begin {-}
 
@@ -15,7 +14,6 @@ In mdEditor, contacts are created separately from individual records and then st
 
 You should maintain a single list of your contacts in the program's archive folder (root folder that contains all project archive folders). Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.
 
-***
 
 ## Edit a Project {-}
 1. Import or create your project record (see [workflow](#workflow)).
@@ -59,7 +57,6 @@ You should maintain a single list of your contacts in the program's archive fold
 ### Taxonomy Tab {-}
 * Taxonomic classifications
 
-***
 
 ## Main Tab {-#project-main}
 The Main tab allows for the creation and/or editing of primary metadata.
@@ -212,7 +209,6 @@ Once a Metadata Identifier is created in the metadata, do not change it. mdEdito
 ### Metadata Repositories {-}
 [Under development]
 
-***
 
 ## Keyword Tab {-#project-keywords}
 Adding keywords to your metadata record allows for the record to be found later through a search engine. Keywords are the way to tag your projects or products. The mdEditor is designed using thesauruses that contain pre-determined keywords.
@@ -277,7 +273,6 @@ If you have a consistent set of keywords that you use across your projects, you 
 ### Keywords and ScienceBase {-}
 [Under development]
 
-***
 
 ## Extent Tab {-#project-extent} 
 **Extent** refers to geographic boundaries for your project. Spatial extents lets users see at a glance the geographic footprint of your project and allows searching within specific geographic areas.
@@ -390,7 +385,6 @@ To some extent, this is up to the judgement of the data manager. You will know b
 ### Reporting Issues {-}
 If you encounter issues or bugs using the new Taxonomy feature, please report them in this github thread: https://github.com/adiwg/mdEditor/issues/101 (requires github account to post).
 
-***
 
 ## Associated Tab {-#project-associations}
 The Associated section is used to connect metadata records with each other. This feature should be used when items are related, for example, products are often the result of projects, and projects often have sub-projects. Projects and Products can be linked together by using association. Adding associations gives users the ability to find items that relate to each other.

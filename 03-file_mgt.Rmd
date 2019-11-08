@@ -9,8 +9,6 @@ mdEditor stores information on your local computer in your browser's localStorag
 In mdEditor settings, you can clear your storage cache. Doing so will remove all of the information currently loaded in mdEditor. Reasons you might want to clear your storage cache is due to too much information stored in the cache, or as a way to debug a problem with mdEditor. **It is very important that you back up your records before clearing the mdEditor cache to avoid losing your data**. Consult the Export or Settings section of this manual to learn more.
 ```
 
-***
-
 ## mdEditor File Format {-}
 JSON (JavaScript Object Notation) is an open-standard file format with file extension .json.  The underlying format of the metadata from mdEditor is mdJSON, which was created specifically for mdEditor. There are two types of mdJSON files.
 
@@ -20,8 +18,6 @@ JSON (JavaScript Object Notation) is an open-standard file format with file exte
 ```{block, file_mgt_import-tip, type='rmdtip'}
 mdEditor files will be exported and imported to/from the project's archive record
 ```
-
-***
 
 ## Import {-#import}
 The Import function loads an mdEditor or mdJSON file into the current mdEditor session. You can also import existing ScienceBase metadata or FGDC (Federal Geographic Data Committee) metadata into mdEditor to create mdJSON.
@@ -51,7 +47,6 @@ You can click or drag and drop a file onto the **Import Data** button to import 
 
 ![](images/import_data.png)
 
-***
 
 ## Export {-#export}
 
@@ -83,7 +78,6 @@ While exporting data, there are four options available (on the right side of the
 
 Clicking the **Include Settings** switch will also export mdEditor settings (only for mdEditor files). Consult the [Settings](#settings) section of this manual to learn about settings.
 
-***
 
 ## Copy Records {-}
 The **Copy** button is located in the mdEditor action menu on the right-hand side of the screen. The Copy Button allows you to make a duplicate of an existing metadata record.

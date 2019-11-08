@@ -16,7 +16,6 @@ Always spell out acronyms and organization names.
 Make sure your contacts are loaded and accurate in mdEditor before creating or editing your metadata records.
 ```
 
-***
 
 ## Individual Contacts {-}
 1. Click the `r knitr::include_graphics("images/symbol_plus_16.png")` by Contacts.
@@ -43,7 +42,6 @@ Make sure your contacts are loaded and accurate in mdEditor before creating or e
 
 If you upload a logo to your contact record, you must include a filename for the logo. Otherwise you will get an error on the metadata records that include that contact.
 
-***
 
 ## Organization Contacts {-}
 

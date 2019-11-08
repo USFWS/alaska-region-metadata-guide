@@ -17,12 +17,10 @@ Clearing all records will delete all of the records currently loaded in mdEditor
 
 ![](images/settings-save-on.png)
 
-***
 
 ## ScienceBase Import Settings {-}
 [Under development]
 
-***
 
 ## Defaults {-}
 Defaults include settings for Language, Character Set, Country, and the *Import URL *(used for defining the default URL for importing).
@@ -37,7 +35,6 @@ The following defaults will be pre-loaded:
 
 Also included in **Defaults** are the **Metadata Repositories** (online databases for storing metadata). Once entered in **Settings** these can then be selected for projects and products so that they are flagged to a metadata repository of your choice. 
 
-***
 
 ## Publishing Settings {-}
 [Under development]
