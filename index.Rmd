@@ -1,5 +1,5 @@
 --- 
-title: "Alaska Region mdEditor Interim User Guide"
+title: "Alaska Region Metadata Guide"
 author: "Alaska Region Data Stewardship Team"
 date: 
 output:
