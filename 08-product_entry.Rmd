@@ -1,7 +1,6 @@
 # Product Entry Guidance {-}
 The Product Entry Guidance section will cover how to create a metadata record for an AK-Region product.
 
-***
 
 ## Before You Begin {-}
 
@@ -15,7 +14,6 @@ In mdEditor, contacts are created separately from individual records, and then s
 
 You should maintain a single list of your contacts in the program's archive folder (root folder that contains all project archive folders). Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.
 
-***
 
 ## Edit a Product {-}
 1. Import or create your product record (see [workflow](#workflow)).
@@ -33,7 +31,6 @@ You should maintain a single list of your contacts in the program's archive fold
   * [Dictionaries Tab](#product-dictionary)
 5. If applicable, [associate](#product-associated) your products with other metadata records.
 
-***
 
 ## Required Fields for Products {-}
 
@@ -74,7 +71,6 @@ You should maintain a single list of your contacts in the program's archive fold
   + Online Option
     - URL
 
-***
 
 ## Main Tab {-#product-main}
 
@@ -189,7 +185,6 @@ Enter comments, if desired.
 
 ![](images/main-time-period.png)
 
-***
 
 ## Metadata Tab {-#product-metadata}
 
@@ -230,7 +225,6 @@ Once a Metadata Identifier is created in the metadata, do not change it. mdEdito
 ### Metadata Repositories {-}
 [Under development]
 
-***
 
 ## Keyword Tab {-#product-keywords}
 
@@ -296,7 +290,6 @@ If you have a consistent set of keywords that you use across your products, you 
 ### Keywords and ScienceBase {-}
 [ Under development ]
 
-***
 
 ## Extent Tab {-#product-extent} 
 
@@ -314,7 +307,6 @@ You can export, save, and import an extent to use for other projects or products
 
 See further information on Extents in [Project Extent entry guidance](#project-extent).
 
-***
 
 ## Taxonomy Tab {-#product-taxonomy}
 
@@ -326,7 +318,6 @@ Please see the [Project Taxonomy entry guidance section](#project-taxonomy).
 
 Taxonomy is required for projects and strongly recommended for products (where applicable). 
 
-***
 
 ## Lineage Tab {-#product-lineage}
 
@@ -364,7 +355,6 @@ Lineage is used to track the process of building spatial datasets. It's a space 
 
 ![](images/process_step_window.png)
 
-***
 
 ## Distribution Tab {-#product-distribution}
 
@@ -414,7 +404,6 @@ If your product is only available offline, describe how users can obtain the pro
 
 ![](images/distribution_example.png)
 
-***
 
 ## Constraints Tab {-#product-constraints}
 
@@ -447,7 +436,6 @@ Classification is the class of security (e.g., top secret, public access).
 
 ![](images/security.png)
 
-***
 
 ## Dictionaries Tab {-#product-dictionary}
 
@@ -457,7 +445,6 @@ Like Contacts, data dictionaries are created separately from Product records. Al
 
 Select the dictionary from the list of those available by checking the box next to the dictionary that describes the product.
 
-***
 
 ## Associated Tab {-#product-associated}
 

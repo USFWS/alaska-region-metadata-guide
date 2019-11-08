@@ -1,5 +1,3 @@
-\mainmatter
-
 # Projects, Products, and Contacts {-}
 
 Contacts, projects, and products share a relationship in mdEditor and are each entered independently.

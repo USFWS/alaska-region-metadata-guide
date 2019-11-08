@@ -6,7 +6,6 @@ It is recommended that you export all Data dictionaries to the program's archive
 
 After a data dictionary has been described, it can be added to the product metadata record (see [Dictionaries](#dictionaries-tab) tab).
 
-***
 
 ## Creating a New Data Dictionary {-}
 If an existing data dictionary does not describe the product you are working on, create a new data dictionary by clicking the `r knitr::include_graphics("images/symbol_plus_16.png")` by **Dictionaries**.
@@ -19,7 +18,6 @@ Meaningful titles will help link the data dictionary to its product(s) while bui
 
 Click **Save**.
 
-***
 
 ## Main Tab {-}
 
@@ -43,7 +41,6 @@ To add contacts to a metadata record, you must first create/upload the contacts 
 
 The point of contact for a project should be identified with Roles and Responsibilities (see Interim DM Implementation Guide). This is an interim solution as the point of contact can become obsolete if there is a positional change within an organization. 
 
-***
 
 ## Citation Tab {-}
 
@@ -64,7 +61,6 @@ Add at least one date. Recommended are "creation" (when you first created your d
 | author | Identified in Roles and Responsibilities | At least one is required |
 | pointOfContact | Identified in Roles and Responsibilities | Required |
 
-***
 
 ## Entities Tab {-}
 An Entity is a table. More than one entity can be described by a single data dictionary, as with a database. 
@@ -89,7 +85,6 @@ Give a name to the entity in "Code Name" and a  brief definition for the entity.
 ### Attributes {-}
 The attributes (variables or column names) imported from the tabular dataset will be listed in a table and you must provide a brief definition for each.  Additional information about the attribute can be described by clicking "More."
 
-***
 
 ## Domain Tab {-}
 Domains are discrete, allowable values that an attribute might take. For example, the attribute "Color" in a table may only be allowed to take values "Red," "Green," and "Yellow."

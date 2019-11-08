@@ -2,8 +2,6 @@
 
 The following is a suggested workflow for using mdEditor to create and save metadata records for AK-Region projects and products. Workflow can begin from scratch or by working with existing metadata records.
 
-***
-
 ## From Scratch {-}
 Follow this workflow if you do not have existing project or product metadata.
 
@@ -45,8 +43,6 @@ Associations can be either associated from a project or associated from a produc
 Export the project and product records to the project's archive folder (incoming folder) on your program's network drive. These records should be moved from your incoming folder to the metadata folder of the project by the data custodian. Rename this file "project_name.json." For example, MBMWF_011_YKDNestPlot.json would be the metadata record for the YK Delta nest plot survey project conducted by the Waterfowl Program in MBM (it was the 11th project archive record created by the program). 
 
 Separately export all contacts and all data dictionaries to the program's archive folder (root folder that contains all project archive folders).
-
-***
 
 ## Editing and Re-Export {-}
 Follow this workflow if you have already created metadata and need to update it.
